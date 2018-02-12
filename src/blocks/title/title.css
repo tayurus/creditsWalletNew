@@ -1,0 +1,22 @@
+.title__text{
+    color: #282828;
+    font-family: "Montserrat - Semi Bold";
+    font-size: 36px;
+    font-weight: bold;
+    margin: 0px;
+    margin-bottom: 20px;
+}
+
+.title__subtext{
+    color: #282828;
+    font-size: 18px;
+}
+
+.title__text_small{
+    font-size: 24px;
+}
+
+.title__subtext_small{
+    color: #282828;
+    font-size: 14px;
+}

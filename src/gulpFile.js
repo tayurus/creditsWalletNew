@@ -9,7 +9,7 @@ let cleanCSS = require('gulp-clean-css');
 let src = {
     css: ["**/*.css", "!node_modules/**/*.css"],
     js: ["**/*.js", "!node_modules/**/*.js", "!gulpFile.js"],
-    pages: ["pages/**/*.jade", "blocks/**/*.jade"],
+    pages: ["pages/**/*.jade"],
     img: ["**/*.png", "**/*.jpg", "**/*.svg", "**/*.ico"],
 }
 
@@ -30,7 +30,7 @@ gulp.task("build", function() {
     })).pipe(gulp.dest(dist.img));
 
     //CSS
-    let autoprefixBrowsers = ['> 1%', 'last 2 versions', 'firefox >= 4', 'safari 7', 'safari 8', 'IE 8', 'IE 9', 'IE 10', 'IE 11'];
+    let autoprefixBrowsers = ['> 5%', 'last 2 versions', 'IE 11'];
     gulp.src(src.css)
         .pipe(concat("styles.css"))
         .pipe(cleanCSS())

@@ -1,0 +1,33 @@
+.input{
+    position: relative;
+}
+
+.input__field{
+    width: 100%;
+    border: 1px solid #d4d4d5;
+    background-color: #ffffff;
+    outline: none;
+    padding: 14px;
+}
+
+.input__text{
+    display: block;
+    margin: auto;
+    width: 90%;
+    color: #3d3d3d;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 6px;
+}
+
+.input__field_img_hide{
+    width: 19px;
+    height: 11px;
+    background: url("img/hide.png") no-repeat;
+    background-size: cover;
+    position: absolute;
+    right: 10%;
+    top: 56%;
+    cursor: pointer;
+}

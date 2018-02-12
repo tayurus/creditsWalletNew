@@ -1,0 +1,17 @@
+include ../blocks/input/input.jade
+include ../blocks/title/title.jade
+
+doctype html
+html(lang="en")
+    include ../blocks/head/head.jade
+    body
+        include ../blocks/header/header.jade
+
+        main
+            +input("НАХУЙ ИДИ", "ПИДОР", "input__field_img_hide")
+            
+            +title("ХУИЛА!!!", "КАК ДЕЛА?!","title__text_small","title__subtext_small")
+            
+            button.button.button_continue continue
+    
+        include ../blocks/footer/footer.jade

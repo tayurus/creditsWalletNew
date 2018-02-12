@@ -6,6 +6,7 @@
     max-width: 1140px;
     margin: auto;
     padding-bottom: 12px;
+    padding-top: 3px;
 }
 
 .header__logo{
@@ -36,6 +37,7 @@
     color: #999999;
     font-family: Montserrat;
     font-size: 17px;
+    padding-left: 35px;
 }
 
 .header__nav{
@@ -51,11 +53,69 @@
 }
 
 .header__right{
+    display: flex;
     width: 351px;
+    flex-direction: column;
 }
 
 .header__link{
     color: #999999;
     font-family: Montserrat;
     font-size: 14px;
+}
+
+.header__logout{
+    align-self: flex-end;
+    margin-top: 12px;
+}
+
+@media (max-width:1180px), (max-device-width:1180px) {
+    .header__wrapper{
+        justify-content: space-around !important;
+    }
+}
+
+@media (max-width:1120px), (max-device-width:1120px) {
+    .header__wrapper{
+        flex-direction: column;
+    }
+
+    .header__label{
+        padding: 0px;
+        text-align: center;
+    }
+
+    .header__logo{
+        margin-bottom: 20px;
+    }
+
+    .header__nav{
+        margin-bottom: 20px;
+    }
+
+    .header__logout{
+        align-self: center;
+    }
+}
+
+@media (max-width:370px) {
+    .header__logo > .row{
+        justify-content: space-around;
+    }
+
+    .header__nav{
+        justify-content: space-around !important;
+    }
+
+    .header__right{
+        width: 100%;
+    }
+
+    .header__right > .row{
+        justify-content: space-around !important;
+    }
+
+    .header__link{
+        font-size: 12px;
+    }
 }

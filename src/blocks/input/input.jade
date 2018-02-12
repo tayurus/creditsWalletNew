@@ -1,0 +1,6 @@
+mixin input(text, placeholder, mod)
+    .input
+        label.input__text=text
+            input.input__field(type="text",placeholder=placeholder)
+        - if (mod)
+            div(class=mod)
