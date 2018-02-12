@@ -1,0 +1,61 @@
+.header{
+    background-color: #282828;
+}
+
+.header__wrapper{
+    max-width: 1140px;
+    margin: auto;
+    padding-bottom: 12px;
+}
+
+.header__logo{
+    width: 315px;
+}
+
+.header__img{
+    width: 24px;
+    height: 46px;
+    background: url("img/header__img.png") no-repeat center / cover;
+}
+
+.header__title{
+    color: #ffffff;
+    font-family: "Montserrat - Semi Bold";
+    font-size: 38px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.header__subname{
+    color: #f5d41a;
+    font-family: "Montserrat - Semi Bold";
+    font-size: 30px;
+}
+
+.header__label{
+    color: #999999;
+    font-family: Montserrat;
+    font-size: 17px;
+}
+
+.header__nav{
+    width: 315px;
+}
+
+.header__category{
+    color: #ffffff;
+    font-family: "Montserrat - Semi Bold";
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.header__right{
+    width: 351px;
+}
+
+.header__link{
+    color: #999999;
+    font-family: Montserrat;
+    font-size: 14px;
+}

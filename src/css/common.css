@@ -1,0 +1,28 @@
+@font-face {
+    src: url("fonts/Montserrat-Regular.ttf");
+    font-family: Montserrat;
+}
+
+@font-face {
+    src: url("fonts/Montserrat-SemiBold.ttf");
+    font-family: "Montserrat - Semi Bold";
+}
+
+@font-face {
+    src: url("fonts/MullerRegular.otf");
+    font-family: "Muller Regular";
+}
+
+*{
+    box-sizing: border-box;
+    font-family: Montserrat;
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+a{
+    text-decoration: none;
+}
