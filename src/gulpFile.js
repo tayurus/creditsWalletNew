@@ -4,6 +4,7 @@ let autoprefixer = require('gulp-autoprefixer');
 var concat = require('gulp-concat');
 var rename = require('gulp-rename');
 let cleanCSS = require('gulp-clean-css');
+var urlAdjuster = require('gulp-css-url-adjuster');
 
 // SOURCES
 let src = {
@@ -36,7 +37,11 @@ gulp.task("build", function() {
         .pipe(cleanCSS())
         .pipe(autoprefixer({
             browsers: autoprefixBrowsers
-        }))
+        })).pipe(urlAdjuster({
+        replace: ['img/', '../img/']
+    })).pipe(urlAdjuster({
+        replace: ['fonts/', '../fonts/']
+    }))
         .pipe(gulp.dest(dist.main));
 
     //JS
