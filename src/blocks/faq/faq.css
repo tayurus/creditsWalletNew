@@ -1,0 +1,16 @@
+.faq{
+    min-width: 210px;
+    max-width: 310px;
+}
+
+.faq__title{
+    color: #282828;
+    font-size: 24px;
+}
+
+.faq__link{
+    display: block;
+    margin-bottom: 5px;
+    color: #000000;
+    text-decoration: underline;
+}

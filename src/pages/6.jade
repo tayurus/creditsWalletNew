@@ -1,0 +1,42 @@
+include ../blocks/input/input.jade
+include ../blocks/title/title.jade
+include ../blocks/info/info.jade
+
+doctype html
+html(lang="en")
+    include ../blocks/head/head.jade
+    body
+        include ../blocks/header/header.jade
+
+        main
+            .container
+                .row.row_items_top.row_col_620
+                    .container
+                        include ../blocks/account/account.jade
+                        include ../blocks/faq/faq.jade
+                    .container
+                        +title("Make a payment", "On this page you can open the wallet and make payments in the Credits platform")
+                        .container.container_white
+                            +title("Заголовок внутри контейнера", "Текст под заголовком внутри контейнера","title__text_small","title__subtext_small")
+                            .input
+                                label.input__text Select coin 
+                                select.input__field.input__field_select
+                                    option CS(Credits)
+                                span Credits balance 575,1232 CS
+                                
+                            +input("To address which opened on Credits (only)", "Enter address here")
+                            
+                            .input
+                                label.input__text Amount in CS (Credits)
+                                input.input__field.input__field_number(type="number")
+                                
+                            .input
+                                label.input__text Trancaction Free
+                                input.input__field.input__field_number(type="number")
+                                span CS
+                                span.input__span-spacer or
+                                span.input__fee 0.00051%
+                                    
+                            button.button.button_continue Generate transaction
+        
+        include ../blocks/footer/footer.jade

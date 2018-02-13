@@ -1,5 +1,47 @@
 .container{
-    max-width: 1170px;
-    margin: auto;
-    padding: 15px;
+    max-width: 1140px;
+    margin: 0px auto;
+    padding: 20px;
+}
+
+.container__text{
+    color: #282828;
+    font-weight: 500;
+}
+
+.container_white{
+    background-color: #fff;
+}
+
+.container_empty_bottom{
+    padding-bottom: 300px;
+    margin-bottom: 50px;
+}
+
+.container_full-width{
+    max-width: 100%;
+}
+
+.container_background_earth{
+    background: url("img/container_background_earth.png") no-repeat center / cover;
+    padding-top: 260px !important;
+}
+
+.container_gray{
+    background-color: #efefef;
+}
+
+.container_w945{
+    max-width: 945px;
+}
+
+@media (max-width:620px),(max-device-width:620px) {
+    .container{
+        padding: 10px;
+    }
+
+    .container .container{
+        padding: 10px 0px;
+    }
+
 }

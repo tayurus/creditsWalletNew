@@ -1,0 +1,17 @@
+.info{
+    margin-bottom: 35px;
+}
+
+.info__title{
+    color: #000000;
+    font-weight: 300;
+}
+
+.info__title_account{
+    color: #3d3d3d;
+    font-size: 14px;
+}
+
+.info__title_uppercase{
+    text-transform: uppercase;
+}

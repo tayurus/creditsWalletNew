@@ -1,0 +1,31 @@
+include ../blocks/input/input.jade
+include ../blocks/title/title.jade
+include ../blocks/info/info.jade
+
+doctype html
+html(lang="en")
+    include ../blocks/head/head.jade
+    body
+        include ../blocks/header/header.jade
+
+        main
+            .container
+                .row.row_items_top.row_col_620
+                    include ../blocks/faq/faq.jade
+                    .container
+                        +title("Create your Credits wallet", "On this page you can open the wallet and make payments in the Credits platform")
+                        .container.container_white.container_empty_bottom
+                            +title("Save your KeyStore file", "Текст под заголовком внутри контейнера","title__text_small","title__subtext_small")
+                            .input
+                                input.input__field(type="text",placeholder="234fsaer23r12fdasgae4314raewrgfareg345134", readonly)
+                                label.input__text 
+                                    | DON’T LOSE IT! Keystore file cannot be recovered!
+                                    br
+                                    | DON’T SHARE IT! Trust no one. Watch out thieves!
+                                    br
+                                    | MAKE A BACKUP!
+                                
+                            
+                            button.button.button_continue continue
+        
+        include ../blocks/footer/footer.jade

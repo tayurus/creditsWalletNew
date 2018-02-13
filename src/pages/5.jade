@@ -13,12 +13,11 @@ html(lang="en")
                 .row.row_items_top.row_col_620
                     include ../blocks/faq/faq.jade
                     .container
-                        +title("Password to file key", "On this page you can open the wallet and make payments in the Credits platform")
+                        +title("Unlock your wallet", "On this page you can open the wallet and make payments in the Credits platform")
                         .container.container_white.container_empty_bottom
                             +title("Заголовок внутри контейнера", "Текст под заголовком внутри контейнера","title__text_small","title__subtext_small")
-                            +input("Enter password to generate your Keystore File and save it.", "Password", "input__field_img_hide")
+                            +input("Put below saved private key in previous step", "put private key here")
                             
-                            button.button.button_generate generate file key
-                            button.button.button_continue continue
+                            button.button.button_continue Open your wallet
         
         include ../blocks/footer/footer.jade

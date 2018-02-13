@@ -1,5 +1,6 @@
 .input{
     position: relative;
+    margin-bottom: 40px;
 }
 
 .input__field{
@@ -8,12 +9,11 @@
     background-color: #ffffff;
     outline: none;
     padding: 14px;
+    margin: 10px 0px;
 }
 
 .input__text{
     display: block;
-    margin: auto;
-    width: 90%;
     color: #3d3d3d;
     font-family: Montserrat;
     font-size: 18px;
@@ -27,7 +27,16 @@
     background: url("img/hide.png") no-repeat;
     background-size: cover;
     position: absolute;
-    right: 10%;
-    top: 56%;
+    right: 5%;
+    top: 60%;
     cursor: pointer;
+}
+
+.input__field_select, .input__field_number{
+    width: 70%;
+    margin-right: 15px;
+}
+
+.input__span-spacer{
+    margin: 0px 20px;
 }

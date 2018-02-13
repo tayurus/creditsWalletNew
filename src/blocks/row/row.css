@@ -3,3 +3,99 @@
     justify-content: space-between;
     align-items: center;
 }
+
+.row_items_top{
+    align-items: flex-start;
+}
+
+.row_buttons{
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 5px;
+}
+
+.row_buttons > button{
+    margin: 10px;
+}
+
+.row__text{
+    color: #ffffff;
+    font-family: "Muller Regular";
+    font-size: 22px;
+    display: block;
+}
+
+.row__text_center{
+    text-align: center;
+}
+
+.row__text_bottomed{
+    padding-top: 40px;
+}
+
+.row_faq{
+    flex-wrap: wrap;
+    margin-top: 25px;
+}
+
+.row__faq-link{
+    position: relative;
+    text-align: left;
+    width: 48%;
+    padding: 18px 0px 18px 45px;
+    color: #ffffff;
+    font-family: "Muller Regular";
+    font-size: 14px;
+    border-bottom: 1px solid #59798d;
+}
+
+.row__faq-link::before{
+    position: absolute;
+    content: "";
+    left: 0%;
+    bottom: 25%;
+    background: url("img/row__faq-link.png") no-repeat center / 27px 27px;
+    width: 27px;
+    height: 27px;
+}
+
+.row__faq-all{
+    margin-top: 20px;
+    text-decoration: underline;
+}
+
+@media (max-width:1180px),(max-device-width:1080px) {
+    .row_advantage{
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+
+    .row_advantage .advantage{
+        margin: 10px;
+    }
+}
+
+@media (max-width:935px),(max-device-width:935px) {
+    .row_main-buttons{
+        flex-direction: column;
+        margin-bottom: 30px;
+    }
+
+    .row__text_bottomed{
+        padding: 0px;
+    }
+
+    .row_faq{
+        flex-direction: column;
+    }
+
+    .row__faq-link{
+        width: 90%;
+    }
+}
+
+@media (max-width:620px),(max-device-width:620px) {
+    .row_col_620{
+        flex-direction: column;
+    }
+}

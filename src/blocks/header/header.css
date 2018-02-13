@@ -2,6 +2,12 @@
     background-color: #282828;
 }
 
+.header_transparent{
+    background-color: transparent;
+    position: absolute;
+    width: 100%;
+}
+
 .header__wrapper{
     max-width: 1140px;
     margin: auto;
@@ -67,6 +73,12 @@
 .header__logout{
     align-self: flex-end;
     margin-top: 12px;
+}
+
+.header__button-new-acc{
+    background-color: transparent;
+    color: #fff;
+    border: 2px solid #f6f6f6;
 }
 
 @media (max-width:1180px), (max-device-width:1180px) {

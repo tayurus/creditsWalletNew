@@ -64,3 +64,13 @@
         margin: 15px;
     }
 }
+
+@media (max-width:415px),(max-device-width:415px) {
+    .footer__social-row{
+        width: 175px;
+    }
+
+    .footer__social-link{
+        margin: 5px 10px;
+    }
+}

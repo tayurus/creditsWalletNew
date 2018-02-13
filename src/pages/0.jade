@@ -1,0 +1,102 @@
+include ../blocks/input/input.jade
+include ../blocks/title/title.jade
+include ../blocks/info/info.jade
+
+doctype html
+html(lang="en")
+    include ../blocks/head/head.jade
+    body
+        noscript
+            p Please enable Javascript
+            
+        header.header.header_transparent
+            .header__wrapper.row
+                .header__logo
+                    .row
+                        .header__img
+                        .header__title credits
+                        .header__subname Wallet
+                    .header__label Fast cryptocurrency
+                    
+                nav.header__nav.row
+                    a.header__category(href="#") new wallet
+                    a.header__category(href="#") monitor
+                    a.header__category(href="#") contracts
+                    
+                .header__right
+                    .row
+                        a.header__link(href="#") Есть вопросы?
+                        a.header__link(href="#") Поддержка
+                        a.header__link(href="#") Разработчикам
+                    .row.row_buttons
+                        button.button.header__button-new-acc new account
+                        button.button.header__button-sign-in sing in
+        
+        main
+            .container.container_full-width.container_background_earth
+                .container.container_w945
+                    .title.title_center
+                        h1.title__text.title__text_center.title__text_white Open an account in Credits cryptocurrency
+                        .title__subtext.title__subtext_center.title__subtext_white On this page you can open the wallet and make payments in the Credits platform
+                    .row.row_main-buttons
+                        .container
+                            .row__text.row__text_center Create a
+                            button.button.button-new-acc new account
+                            
+                        .row__text.row__text_bottomed or
+                        
+                        .container
+                            .row__text.row__text_center You have already Account?
+                            button.button.button-sign-in sing in
+                            
+                    h2.title__text.title__text_center.title__text_white FAQ
+                    .row.row_faq
+                        a(href="#").row__faq-link What is Credits
+                        a(href="#").row__faq-link How to open a wallet?
+                        a(href="#").row__faq-link Why is it important to keep the password and key file?
+                        a(href="#").row__faq-link What is the wallet address
+                        
+                    a.row__text.row__text_center.row__faq-all(href="#") All FAQs
+        
+            .container
+                .title.title_center
+                    h2.title__text.title__text_center VERY FAST BLOCKCHAIN
+
+                .row.row_advantage
+                    .advantage
+                        .advantage__img
+                        .advantage__title High volume
+                        .advantage__text More than 1,000,000 transactions per second, with future scalability to 10,000,000 per second
+                        
+                    .advantage
+                        .advantage__img
+                        .advantage__title High volume
+                        .advantage__text More than 1,000,000 transactions per second, with future scalability to 10,000,000 per second
+                        
+                    .advantage
+                        .advantage__img
+                        .advantage__title High volume
+                        .advantage__text More than 1,000,000 transactions per second, with future scalability to 10,000,000 per second
+                        
+            .container.container_gray.container_full-width
+                .container
+                    .title.title_center
+                        h2.title__text.title__text_center What is CREDITS?
+                    .container__text
+                        | CREDITS is an open blockchain platform with autonomous smart contracts and the internal cryptocurrency. The platform is designed to create services for blockchain systems using self-executing smart contracts and a public data registry.
+                        br
+                        br
+                        | The platform can execute more than 1,000,000 transactions per second and has an execution speed of 0.01 seconds. Because transaction fees are minimal, high-volume applications are possible in a way that no other available blockchain can match.
+                        br
+                        br
+                        | CREDITS platform is the first completely autonomous blockchain system. The platform offers a new, extended application programming interface (API) that utilizes a Turing system capable of creating services using cycles, schedules, and unique functions. No other platform offers smart contract execution speeds near those of CREDITS. In addition, the CREDITS platform can function completely autonomously and without the need for external systems' participation. Accordingly, | CREDITS is fundamentally differentiated from any other current blockchain platforms.
+                    button.button.button_continue Open an account in Credits
+                    
+                
+                            
+                    
+                        
+                    
+        
+        
+        include ../blocks/footer/footer.jade

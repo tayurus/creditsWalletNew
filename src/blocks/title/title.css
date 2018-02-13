@@ -1,3 +1,12 @@
+.title{
+    max-width: 560px;
+    margin-bottom: 40px;
+}
+
+.title_center{
+    margin: 0px auto;
+}
+
 .title__text{
     color: #282828;
     font-family: "Montserrat - Semi Bold";
@@ -19,4 +28,22 @@
 .title__subtext_small{
     color: #282828;
     font-size: 14px;
+}
+
+.title__text_center, .title__subtext_center{
+    text-align: center;
+}
+
+.title__text_white, .title__subtext_white{
+    color: #fff;
+}
+
+@media (max-width:620px),(max-device-width:620px) {
+    .title{
+        margin-bottom: 15px;
+    }
+
+    .title__text{
+        font-size: 24px;
+    }
 }
