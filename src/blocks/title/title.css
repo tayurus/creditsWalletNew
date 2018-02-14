@@ -38,6 +38,36 @@
     color: #fff;
 }
 
+.title__text_middle{
+    font-size: 30px;
+}
+
+.title_full-width{
+    max-width: 100%;
+}
+
+.title__subtext_myriad{
+    max-width: 610px;
+    margin: auto;
+    color: #fefefe;
+    font-family: "Myriad Pro";
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 34px;
+    margin-bottom: 35px;
+}
+
+.title__subtext_bold{
+    font-weight: bold;
+}
+
+.title__text_light{
+    color: #000000;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 300;
+}
+
 @media (max-width:620px),(max-device-width:620px) {
     .title{
         margin-bottom: 15px;

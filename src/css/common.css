@@ -13,6 +13,11 @@
     font-family: "Muller Regular";
 }
 
+@font-face {
+    src: url("fonts/Myriad Pro Regular.otf");
+    font-family: "Myriad Pro";
+}
+
 *{
     box-sizing: border-box;
     font-family: Montserrat;

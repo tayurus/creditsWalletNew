@@ -19,3 +19,7 @@
 .info__title_center{
     text-align: center;
 }
+
+.info__text{
+    font-weight: bold;
+}

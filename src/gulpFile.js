@@ -50,7 +50,7 @@ gulp.task("build", function() {
 gulp.task("watch", ["build"], function() {
     gulp.watch(Object.values(src), ["build"]);
 })
-
+//
 // .pipe(urlAdjuster({
 // replace: ['img/', '../img/']
 // })).pipe(urlAdjuster({

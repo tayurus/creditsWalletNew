@@ -54,14 +54,18 @@
     content: "";
     left: 0%;
     bottom: 25%;
-    background: url("img/row__faq-link.png") no-repeat center / 27px 27px;
-    width: 27px;
-    height: 27px;
+    background: url("img/row__faq-link.png") no-repeat center / cover;
+    width: 24px;
+    height: 24px;
 }
 
 .row__faq-all{
     margin-top: 20px;
     text-decoration: underline;
+}
+
+.row_main-buttons{
+    margin-bottom: 30px;
 }
 
 @media (max-width:1180px),(max-device-width:1080px) {
@@ -78,7 +82,6 @@
 @media (max-width:935px),(max-device-width:935px) {
     .row_main-buttons{
         flex-direction: column;
-        margin-bottom: 30px;
     }
 
     .row__text_bottomed{

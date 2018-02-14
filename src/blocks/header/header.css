@@ -12,7 +12,6 @@
     max-width: 1140px;
     margin: auto;
     padding-bottom: 12px;
-    padding-top: 3px;
 }
 
 .header__logo{
@@ -43,11 +42,14 @@
     color: #999999;
     font-family: Montserrat;
     font-size: 17px;
-    padding-left: 35px;
+    padding-left: 30px;
+    margin-top: -5px;
 }
 
 .header__nav{
     width: 315px;
+    margin-top: 15px;
+    margin-left: 20px;
 }
 
 .header__category{
@@ -73,12 +75,19 @@
 .header__logout{
     align-self: flex-end;
     margin-top: 12px;
+    font-size: 12px;
 }
 
 .header__button-new-acc{
     background-color: transparent;
     color: #fff;
     border: 2px solid #f6f6f6;
+    font-size: 12px;
+    padding: 8px 26px !important;
+}
+
+.header__row_buttons{
+    justify-content: flex-end !important;
 }
 
 @media (max-width:1180px), (max-device-width:1180px) {

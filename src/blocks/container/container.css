@@ -7,6 +7,9 @@
 .container__text{
     color: #282828;
     font-weight: 500;
+    line-height: 24px;
+    max-width: 939px;
+    margin: auto;
 }
 
 .container_white{
@@ -24,7 +27,7 @@
 
 .container_background_earth{
     background: url("img/container_background_earth.png") no-repeat center / cover;
-    padding-top: 260px !important;
+    padding-top: 214px !important;
 }
 
 .container_gray{

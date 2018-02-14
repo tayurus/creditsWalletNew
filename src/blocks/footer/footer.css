@@ -12,7 +12,7 @@
 
 .footer__title{
     color: #ffffff;
-    font-family: "Muller Bold";
+    font-family: "Muller Regular";
     font-size: 18px;
     margin-bottom: 35px;
 }
@@ -36,7 +36,6 @@
     display: block;
     width: 35px;
     height: 35px;
-    background: url("img/telegram.png") no-repeat center;
     margin: 0px 5px;
 }
 
@@ -48,6 +47,70 @@
     background-color: #2e2e2e;
     padding: 30px 0px;
 }
+
+.footer__social-link_telegram{
+    background: url("img/telegramG.png") no-repeat center / cover;
+}
+.footer__social-link_telegram:hover{
+    background: url("img/telegram.png") no-repeat center / cover;
+}
+
+
+.footer__social-link_facebook{
+    background: url("img/facebookG.png") no-repeat center / cover;
+}
+.footer__social-link_facebook:hover{
+    background: url("img/facebook.png") no-repeat center / cover;
+}
+
+
+.footer__social-link_in{
+    background: url("img/inG.png") no-repeat center / cover;
+}
+.footer__social-link_in:hover{
+    background: url("img/linkedin.png") no-repeat center / cover;
+}
+
+
+.footer__social-link_medium{
+    background: url("img/mediumG.png") no-repeat center / cover;
+}
+.footer__social-link_medium:hover{
+    background: url("img/medium.png") no-repeat center / cover;
+}
+
+
+.footer__social-link_twitter{
+    background: url("img/twitterG.png") no-repeat center / cover;
+}
+.footer__social-link_twitter:hover{
+    background: url("img/twitter.png") no-repeat center / cover;
+}
+
+
+.footer__social-link_bitcoin{
+    background: url("img/bitcoinG.png") no-repeat center / cover;
+}
+.footer__social-link_bitcoin:hover{
+    background: url("img/bitcoin.png") no-repeat center / cover;
+}
+
+
+.footer__social-link_youtube{
+    background: url("img/youtubeG.png") no-repeat center / cover;
+}
+.footer__social-link_youtube:hover{
+    background: url("img/youtube.png") no-repeat center / cover;
+}
+
+
+.footer__social-link_reddit{
+    background: url("img/redditG.png") no-repeat center / cover;
+}
+.footer__social-link_reddit:hover{
+    background: url("img/reddit.png") no-repeat center / cover;
+}
+
 
 @media (max-width:1100px),(max-device-width:1100px) {
     .footer__wrapper{
