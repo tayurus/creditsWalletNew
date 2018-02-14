@@ -15,10 +15,11 @@ html(lang="en")
                     .container
                         +title("Password to file key", "On this page you can open the wallet and make payments in the Credits platform")
                         .container.container_white.container_empty_bottom
-                            +title("Заголовок внутри контейнера", "Текст под заголовком внутри контейнера","title__text_small","title__subtext_small")
                             +input("Enter password to generate your Keystore File and save it.", "Password", "input__field_img_hide")
                             
-                            button.button.button_generate generate file key
+                            //- button.button.button_generate generate file key
+                            .info
+                                .info__title.info__title_center GENERATE FILE KEY
                             button.button.button_continue continue
         
         include ../blocks/footer/footer.jade

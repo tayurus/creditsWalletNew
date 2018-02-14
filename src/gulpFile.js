@@ -37,11 +37,7 @@ gulp.task("build", function() {
         .pipe(cleanCSS())
         .pipe(autoprefixer({
             browsers: autoprefixBrowsers
-        })).pipe(urlAdjuster({
-        replace: ['img/', '../img/']
-    })).pipe(urlAdjuster({
-        replace: ['fonts/', '../fonts/']
-    }))
+        }))
         .pipe(gulp.dest(dist.main));
 
     //JS
@@ -54,3 +50,9 @@ gulp.task("build", function() {
 gulp.task("watch", ["build"], function() {
     gulp.watch(Object.values(src), ["build"]);
 })
+
+// .pipe(urlAdjuster({
+// replace: ['img/', '../img/']
+// })).pipe(urlAdjuster({
+// replace: ['fonts/', '../fonts/']
+// }))

@@ -15,8 +15,9 @@ html(lang="en")
                     .container
                         +title("Create your Credits wallet", "On this page you can open the wallet and make payments in the Credits platform")
                         .container.container_white.container_empty_bottom
-                            +title("Save your KeyStore file", "Текст под заголовком внутри контейнера","title__text_small","title__subtext_small")
+                            +title("Save your private key to Credits account", "","title__text_small","title__subtext_small")
                             .input
+                                input.input__field(type="text",placeholder="234fsaer23r12fdasgae4314raewrgfareg345134")
                                 label.input__text 
                                     | DON’T LOSE IT! Keystore file cannot be recovered!
                                     br
@@ -24,10 +25,7 @@ html(lang="en")
                                     br
                                     | MAKE A BACKUP!
                                 
-                                button.button.button_download Download keystore file (UTC / JSON)
-                                
-                            .row.row_buttons
-                                button.button.button_back back
-                                button.button.button_continue continue
+                            
+                            button.button.button_continue continue
         
         include ../blocks/footer/footer.jade

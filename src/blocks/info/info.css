@@ -15,3 +15,7 @@
 .info__title_uppercase{
     text-transform: uppercase;
 }
+
+.info__title_center{
+    text-align: center;
+}
