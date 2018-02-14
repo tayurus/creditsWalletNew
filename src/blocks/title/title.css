@@ -3,6 +3,10 @@
     margin-bottom: 40px;
 }
 
+.title_mb_10{
+    margin-bottom: 10px;
+}
+
 .title_center{
     margin: 0px auto;
 }
@@ -27,7 +31,10 @@
 
 .title__subtext_small{
     color: #282828;
-    font-size: 14px;
+    font-size: 18px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    padding: 0px 10px;
 }
 
 .title__text_center, .title__subtext_center{

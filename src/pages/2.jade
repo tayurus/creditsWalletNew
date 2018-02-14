@@ -12,13 +12,13 @@ html(lang="en")
             .container
                 .row.row_items_top.row_col_620
                     include ../blocks/faq/faq.jade
-                    .container
+                    .container.container_force-full
                         +title("Create your Credits wallet", "On this page you can open the wallet and make payments in the Credits platform")
                         .container.container_white.container_empty_bottom
-                            +title("Save your private key to Credits account", "","title__text_small","title__subtext_small")
+                            +title("Save your private key to Credits account", "","title__text_small","title__subtext_small", "title_mb_10")
                             .input
                                 input.input__field(type="text",placeholder="234fsaer23r12fdasgae4314raewrgfareg345134")
-                                label.input__text 
+                                label.input__text.input__text_light 
                                     | DON’T LOSE IT! Keystore file cannot be recovered!
                                     br
                                     | DON’T SHARE IT! Trust no one. Watch out thieves!
@@ -26,6 +26,6 @@ html(lang="en")
                                     | MAKE A BACKUP!
                                 
                             
-                            button.button.button_continue continue
+                            button.button.button_continue.button_left continue
         
         include ../blocks/footer/footer.jade

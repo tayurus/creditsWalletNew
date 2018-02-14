@@ -11,10 +11,10 @@ html(lang="en")
         main
             .container
                 .row.row_items_top.row_col_620
-                    .container
+                    .container.container_col
                         include ../blocks/account/account.jade
                         include ../blocks/faq/faq.jade
-                    .container
+                    .container.container_force-full
                         +title("Make a payment", "On this page you can open the wallet and make payments in the Credits platform")
                         .container.container_white
                             +title("Заголовок внутри контейнера", "Текст под заголовком внутри контейнера","title__text_small","title__subtext_small")
@@ -37,6 +37,6 @@ html(lang="en")
                                 span.input__span-spacer or
                                 span.input__fee 0.00051%
                                     
-                            button.button.button_continue Generate transaction
+                            button.button.button_continue.button_left Generate transaction
         
         include ../blocks/footer/footer.jade

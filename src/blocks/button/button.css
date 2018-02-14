@@ -20,7 +20,6 @@
 
 .button_continue{
     min-width: 250px;
-    padding: 20px;
     background-color: #0095d9;
     color: #ffffff;
     font-size: 18px;
@@ -65,7 +64,7 @@
     color: #ffffff;
     font-family: "Muller Regular";
     font-size: 22px;
-    padding: 20px 70px;
+    height: 62px;
     margin-top: 15px;
 }
 
@@ -73,6 +72,14 @@
     background: transparent;
     border-radius: 31px;
     border: 2px solid #ffffff;
+}
+
+.button_left{
+    margin: 20px 0px;
+}
+
+.button_h50{
+    height: 50px;
 }
 
 @media (max-width:620px),(max-device-width:620px) {

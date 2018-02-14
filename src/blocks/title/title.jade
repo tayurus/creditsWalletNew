@@ -1,5 +1,5 @@
-mixin title(text,subtext,text_mod,subtext_mod)
-    .title
+mixin title(text,subtext,text_mod,subtext_mod,title_mod)
+    .title(class=title_mod)
         h2.title__text(class=text_mod)=text
         .title__subtext(class=subtext_mod)=subtext
         

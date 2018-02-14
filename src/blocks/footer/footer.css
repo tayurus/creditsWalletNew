@@ -8,6 +8,7 @@
     margin: auto;
     padding-top: 35px;
     margin-bottom: 12px;
+    position: relative;
 }
 
 .footer__title{

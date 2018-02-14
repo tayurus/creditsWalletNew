@@ -12,13 +12,13 @@ html(lang="en")
             .container
                 .row.row_items_top.row_col_620
                     include ../blocks/faq/faq.jade
-                    .container
+                    .container.container_force-full
                         +title("Unlock your wallet", "On this page you can open the wallet and make payments in the Credits platform")
                         .container.container_white.container_empty_bottom
                             +title("Put your private key", "","title__text_small","title__subtext_small")
                             +input("Put public key", "put public key here")
                             +input("Put below saved private key in previous step", "put private key here")
                             
-                            button.button.button_continue Open your wallet
+                            button.button.button_continue.button_left Open your wallet
         
         include ../blocks/footer/footer.jade

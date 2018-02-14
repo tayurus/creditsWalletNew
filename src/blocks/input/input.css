@@ -21,6 +21,10 @@
     margin-bottom: 6px;
 }
 
+.input__text_light{
+    font-weight: 400;
+}
+
 .input__field_img_hide{
     width: 19px;
     height: 11px;

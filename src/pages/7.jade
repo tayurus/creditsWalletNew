@@ -11,10 +11,10 @@ html(lang="en")
         main
             .container
                 .row.row_items_top.row_col_620
-                    .container
+                    .container.container_col
                         include ../blocks/account/account.jade
                         include ../blocks/faq/faq.jade
-                    .container
+                    .container.container_force-full
                         +title("Check & verify your transaction", "On this page you can open the wallet and make payments in the Credits platform")
                         .container.container_white
                             +title("Заголовок внутри контейнера", "Текст под заголовком внутри контейнера","title__text_light","title__subtext_small title__subtext_bold")
@@ -22,13 +22,14 @@ html(lang="en")
                             
                             +title("Transaction sum", "23.0547 CS","title__text_light","title__subtext_small title__subtext_bold")
                             .input
-                                +title("Trancaction Free", "","title__text_light","title__subtext_small title__subtext_bold")
-                                span CS
-                                span.input__span-spacer or
-                                span.input__fee 0.00051%
+                                +title("Trancaction Free", "","title__text_light","title__subtext_small title__subtext_bold", "title_mb_10")
+                                .title__subtext.title__subtext_small.title__subtext_bold
+                                    span 0.5451 CS
+                                    span.input__span-spacer or
+                                    span.input__fee 0.00051%
                                 
                             +title("Transaction code", "0xf316812AE66d5B8aFcC0601Aed747e75dBF7064e","title__text_light","title__subtext_small title__subtext_bold")
                             
-                            button.button.button_continue Generate transaction
+                            button.button.button_continue.button_left Generate transaction
         
         include ../blocks/footer/footer.jade

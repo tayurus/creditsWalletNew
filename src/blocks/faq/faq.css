@@ -10,7 +10,8 @@
 
 .faq__link{
     display: block;
-    margin-bottom: 5px;
+    margin-bottom: 10px;
     color: #000000;
+    font-family: "Myriad Pro";
     text-decoration: underline;
 }
