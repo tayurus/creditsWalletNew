@@ -5,9 +5,18 @@
 .advantage__img{
     height: 80px;
     width: 100%;
-    background-image:url("img/advantage.png");
     background-repeat: no-repeat;
     background-position: center;
+}
+
+.advantage__img1{
+    background-image:url("img/advantage1.png");
+}
+.advantage__img2{
+    background-image:url("img/advantage2.png");
+}
+.advantage__img3{
+    background-image:url("img/advantage3.png");
 }
 
 .advantage__title{
