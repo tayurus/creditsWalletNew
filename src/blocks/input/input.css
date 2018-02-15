@@ -19,6 +19,7 @@
     font-size: 18px;
     font-weight: bold;
     margin-bottom: 6px;
+    
 }
 
 .input__text_light{
@@ -36,11 +37,28 @@
     cursor: pointer;
 }
 
-.input__field_select, .input__field_number{
-    width: 70%;
+.input__field_number{
+    margin-right: 15px;
+}
+
+.input__field_w_237{
+    width: 237px;
+}
+
+.input__field_select{
+    width: 237px;
+    color: #000000;
+    font-size: 18px;
+    font-weight: bold;
     margin-right: 15px;
 }
 
 .input__span-spacer{
     margin: 0px 20px;
+}
+
+@media (max-width:540px),(max-device-width:540px) {
+    .input__balance{
+        display: block;
+    }
 }

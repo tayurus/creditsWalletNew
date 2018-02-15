@@ -26,6 +26,7 @@
 
 .info__text{
     font-weight: bold;
+    word-break: break-all;
 }
 
 .info__generate{

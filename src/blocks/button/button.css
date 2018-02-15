@@ -82,6 +82,12 @@
     height: 50px;
 }
 
+
+.button_gray{
+  background: #ccc;
+}
+
+
 @media (max-width:620px),(max-device-width:620px) {
     .button_continue, .button_generate{
         margin: 20px auto;

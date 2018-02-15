@@ -16,6 +16,7 @@
     font-family: "Muller Regular";
     font-size: 18px;
     margin-bottom: 35px;
+    display: block;
 }
 
 .footer__text{
@@ -121,12 +122,11 @@
 
 @media (max-width:700px),(max-device-width:700px) {
     .footer__wrapper{
-        flex-direction: column;
+        flex-wrap: wrap;
     }
 
     .footer__col{
-        margin-top: 5px;
-        align-self: center;
+        margin: 15px;
     }
 }
 

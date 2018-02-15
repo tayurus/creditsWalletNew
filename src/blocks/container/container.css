@@ -39,7 +39,7 @@
 
 .container_background_earth{
     background: url("img/container_background_earth.png") no-repeat center / cover;
-    padding-top: 214px !important;
+    padding-top: 130px !important;
     position: static;
 }
 
@@ -66,6 +66,12 @@
     .container__to-top{
         right: 30px;
         transform: scale(1.5);
+    }
+}
+
+@media (max-width:1120px),(max-device-width:1120px) {
+    .container_background_earth{
+        padding-top: 214px !important;
     }
 }
 
