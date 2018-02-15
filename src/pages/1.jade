@@ -9,7 +9,7 @@ html(lang="en")
         include ../blocks/header/header.jade
 
         main
-            .container
+            .container.container_empty_bottom
                 .row.row_items_top.row_col_620
                     include ../blocks/faq/faq.jade
                     .container.container_force-full
@@ -18,8 +18,8 @@ html(lang="en")
                             +input("Enter password to generate your Keystore File and save it.", "Password", "")
                             
                             //- button.button.button_generate generate file key
-                            .info
-                                .info__title.info__title_center GENERATE FILE KEY
-                            button.button.button_continue.button_left continue
+                            .info.info_w250
+                                .info__title.info__generate GENERATE FILE KEY
+                                button.button.button_continue.button_left continue
         
         include ../blocks/footer/footer.jade

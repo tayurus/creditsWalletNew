@@ -9,7 +9,7 @@ html(lang="en")
         include ../blocks/header/header.jade
 
         main
-            .container
+            .container.container_empty_bottom
                 .row.row_items_top.row_col_620
                     .container.container_col
                         include ../blocks/account/account.jade
@@ -22,7 +22,7 @@ html(lang="en")
                                 label.input__text Select coin 
                                 select.input__field.input__field_select
                                     option CS(Credits)
-                                span Credits balance 575,1232 CS
+                                div Credits balance 575,1232 CS
                                 
                             +input("To address which opened on Credits (only)", "Enter address here")
                             

@@ -113,6 +113,7 @@
 
     .header__nav{
         margin-bottom: 20px;
+        margin-left: 0px
     }
 
     .header__logout{

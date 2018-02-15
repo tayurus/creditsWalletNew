@@ -121,11 +121,12 @@
 
 @media (max-width:700px),(max-device-width:700px) {
     .footer__wrapper{
-        flex-wrap: wrap;
+        flex-direction: column;
     }
 
     .footer__col{
-        margin: 15px;
+        margin-top: 5px;
+        align-self: center;
     }
 }
 

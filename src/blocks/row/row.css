@@ -68,6 +68,10 @@
     margin-bottom: 30px;
 }
 
+.row_advantage{
+    align-items: flex-start;
+}
+
 @media (max-width:1180px),(max-device-width:1080px) {
     .row_advantage{
         justify-content: space-around;

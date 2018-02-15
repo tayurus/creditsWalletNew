@@ -2,6 +2,10 @@
     margin-bottom: 35px;
 }
 
+.info_w250{
+    width: 250px;
+}
+
 .info__title{
     color: #000000;
     font-weight: 300;
@@ -22,4 +26,14 @@
 
 .info__text{
     font-weight: bold;
+}
+
+.info__generate{
+    color: #0095d9;
+    font-family: "Muller Regular";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+    text-transform: uppercase;
+    text-align: center;
 }

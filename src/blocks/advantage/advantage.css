@@ -25,6 +25,10 @@
     font-size: 28px;margin-bottom: 15px;
 }
 
+.advantage__title_h64{
+    height: 64px;
+}
+
 .advantage__text{
     color: #282828;
     text-align: center;
