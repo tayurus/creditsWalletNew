@@ -48,7 +48,7 @@
 }
 
 .header__nav{
-    width: 210px;
+    /* width: 210px; */
     margin-top: 15px;
     margin-left: 20px;
 }
@@ -63,7 +63,7 @@
 
 .header__right{
     display: flex;
-    width: 351px;
+    width: 135px;
     flex-direction: column;
 }
 
@@ -88,7 +88,12 @@
 }
 
 .header__row_buttons{
+    display: none !important;
     justify-content: flex-end !important;
+}
+
+.header__right > .row:first-child{
+    padding-bottom: 40px;
 }
 
 @media (max-width:1180px), (max-device-width:1180px) {
