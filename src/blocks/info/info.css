@@ -11,6 +11,10 @@
     font-weight: 300;
 }
 
+.info__title_bold{
+    font-weight: bold;
+}
+
 .info__title_account{
     color: #3d3d3d;
     font-size: 14px;
@@ -27,6 +31,10 @@
 .info__text{
     font-weight: bold;
     word-break: break-all;
+}
+
+.info__text_fw_400{
+    font-weight: 400;
 }
 
 .info__generate{

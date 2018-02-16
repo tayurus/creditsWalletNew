@@ -82,15 +82,38 @@
     height: 50px;
 }
 
+.button_success{
+    min-width: 305px;
+    background-color: green;
+    color: #ffffff;
+    font-family: "Muller Regular";
+    font-size: 22px;
+    height: 62px;
+    margin-top: 15px;
+}
 
 .button_gray{
   background: #ccc;
+}
+
+.tooltip{
+    display: none;
+    color: red;
+    padding-left: 65px;
+}
+
+.button_gray:hover + .tooltip{
+    display: block;
 }
 
 
 @media (max-width:620px),(max-device-width:620px) {
     .button_continue, .button_generate{
         margin: 20px auto;
+    }
+
+    .button_success{
+        min-width: 260px;
     }
 
     .button_download{

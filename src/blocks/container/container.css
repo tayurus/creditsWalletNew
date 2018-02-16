@@ -51,6 +51,10 @@
     max-width: 945px;
 }
 
+.container_w604{
+    max-width: 604px;
+}
+
 .container__to-top{
     width: 59px;
     height: 59px;
@@ -61,6 +65,7 @@
     cursor: pointer;
     background: url("img/to-top.png") no-repeat center / cover;
 }
+
 
 @media (max-width:1340px),(max-device-width:1340px) {
     .container__to-top{

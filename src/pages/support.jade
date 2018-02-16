@@ -1,0 +1,24 @@
+include ../blocks/input/input.jade
+include ../blocks/title/title.jade
+include ../blocks/info/info.jade
+
+doctype html
+html(lang="en")
+    include ../blocks/head/head.jade
+    body
+        include ../blocks/header/header.jade
+
+        main
+            .container.container_empty_bottom
+                +title("Заголовок страницы", "On this page you can open the wallet and make payments in the Credits platform", "title__text_center", "title__subtext_center","title_center")
+                
+                .container.container_w604
+                    +input("", "Имя")
+                    +input("", "Почта")
+                    textarea.input__textarea(placeholder="Описание проблемы")
+                                
+                                
+                            
+                button.button.button_continue Отправить
+        
+        include ../blocks/footer/footer.jade
