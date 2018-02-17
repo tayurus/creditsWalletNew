@@ -48,7 +48,7 @@
 }
 
 .header__nav{
-    /* width: 210px; */
+    width: 210px;
     margin-top: 15px;
     margin-left: 20px;
 }
@@ -71,6 +71,10 @@
     color: #999999;
     font-family: Montserrat;
     font-size: 14px;
+    border: none;
+    background: transparent;
+    text-align: left;
+    cursor: pointer;
 }
 
 .header__logout{
