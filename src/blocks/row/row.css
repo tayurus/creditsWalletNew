@@ -47,6 +47,7 @@
     font-family: "Muller Regular";
     font-size: 14px;
     border-bottom: 1px solid #59798d;
+    cursor:pointer;
 }
 
 .row__faq-link::before{
@@ -62,6 +63,7 @@
 .row__faq-all{
     margin-top: 20px;
     text-decoration: underline;
+    cursor:pointer;
 }
 
 .row_main-buttons{
